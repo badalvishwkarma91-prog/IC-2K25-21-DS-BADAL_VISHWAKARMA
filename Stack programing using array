@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-#define MAX 5
+#define SIZE 5
 
-int stack[MAX];
+int stack[SIZE];
 int top = -1;
 
 
 void push(int value)
 {
-    if (top == MAX - 1)
+    if (top == SIZE - 1)
         cout << "Stack Overflow\n";
     else
     {
