@@ -24,6 +24,5 @@ int main()
     {
         cout << stack[i] << endl;
     }
-
     return 0;
-}
+  }
